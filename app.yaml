@@ -1,0 +1,9 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /fotos
+  static_dir: fotos 
+- url: /.*
+  script: main.app
